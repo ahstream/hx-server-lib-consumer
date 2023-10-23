@@ -1,0 +1,16 @@
+{
+  "name": "hx-server-lib-consumer",
+  "version": "1.0.0",
+  "description": "Hx Vite server lib consumer template",
+  "author": "hstream",
+  "license": "UNLICENSED",
+  "type": "module",
+  "scripts": {
+    "dev": "node scripts/verify.js",
+    "null": ""
+  },
+  "dependencies": {
+    "hx-client-lib": "file:../hx-client-lib",
+    "hx-server-lib": "file:../hx-server-lib"
+  }
+}
